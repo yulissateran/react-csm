@@ -1,5 +1,19 @@
 # React CMS
 
+## UI
+
+#### Home
+
+![Home](./src/images/home-page.png)
+
+#### Blog
+
+![Blog](./src/images/blog-page.png)
+
+#### Edit post
+
+![Edit post](./src/images/edit-post-page.png)
+
 ## Guides
 
 ### Set up locally

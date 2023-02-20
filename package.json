@@ -29,7 +29,9 @@
     "format:prettier": "prettier -w",
     "format:fix": "eslint --fix --max-warnings=0 --ext=js,jsx,ts,tsx src && prettier -w src",
     "format:check": "eslint --max-warnings=0 --ext=js,jsx,ts,tsx src  && prettier --check src",
-    "check": "npm run env:local && npm run type:env && npm run format:check && npm run test && npm run build"
+    "check": "npm run env:local && npm run type:env && npm run format:check && npm run test && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +60,8 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "2.8.4"
-  }
+  },
+  "homepage": "https://yulissateran.github.io/react-csm"
 }
