@@ -1,5 +1,5 @@
-import { PostInterface } from '../domain/post.interface';
-import { MOCK_POSTS } from '../__mocks__/posts.mock';
+import { PostInterface } from 'domain/post.interface';
+import { MOCK_POSTS } from '__mocks__/posts.mock';
 
 const postsStorageKey = 'posts';
 const decode = (stringifiedPosts: string | null) => (stringifiedPosts ? JSON.parse(stringifiedPosts) : null);
